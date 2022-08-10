@@ -1,24 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./components/Button.css";
+import "./App.css";
+import StartPlan from "./components/StartPlan";
+import { useEffect } from "react";
+import Plan from "./components/Plan";
 
 function App() {
+
+  useEffect(() => {
+    Welcome()
+  },)
+  function Welcome(){
+   //if user does not exist, let it create one, or else greet existing user
+    return localStorage.getItem("user") == null ? newUser() : existingUser()
+  }
+  function newUser() {
+    return (
+      <div>
+        <StartPlan />
+      </div>
+    );
+  }
+  function existingUser() {
+    return <div>
+      <Plan />
+    </div>;
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {Welcome()}
     </div>
   );
 }

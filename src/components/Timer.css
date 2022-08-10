@@ -1,0 +1,23 @@
+.timer-container {
+    border-radius: 25px;
+    border: solid 4px ;
+    width: 250px;
+    height: 70px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-card {
+  padding: 1px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fast{
+
+color: rgb(8, 85, 47);
+
+}
+.eat{
+  color: rgb(105, 66, 197);
+}
