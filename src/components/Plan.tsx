@@ -13,7 +13,7 @@ const Plan = () => {
   const user = JSON.parse(LS ?? "");
   const [changeWeightShown, setChangeWeightShown] = useState(false);
   const [changeTimeShown, setChangeTimeShown] = useState(false);
-  const [showStats, setShowStats] = useState(false);
+ // const [showStats, setShowStats] = useState(false);
 
   const handleWeightClick = (event : any) => {
     setChangeWeightShown(current => !current);
@@ -22,9 +22,9 @@ const Plan = () => {
     setChangeTimeShown(current => !current);
   };
 
-  const handleShowStats = (event : any) => {
-    setShowStats(current => !current);
-  };
+ // const handleShowStats = (event : any) => {
+ //   setShowStats(current => !current);
+  //};
   return (
     <div className="container">
       <div className="card">
@@ -55,14 +55,6 @@ const Plan = () => {
       )}
        <br/>
         <br/>
-<button className="btn " onClick={handleShowStats} >
-        Weight change stats
-      </button>
-{showStats && (
-        <div className="container animatedContainer">
-        <WeightChart />
-        </div>
-      )}
         
       </div>
       <br/>
