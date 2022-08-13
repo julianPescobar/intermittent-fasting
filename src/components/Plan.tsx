@@ -7,7 +7,6 @@ import ChangeWeight from "./ChangeWeight";
 import "./StartPlan.css";
 import "./Textbox.css";
 import Timer from "./Timer";
-import WeightChart from "./Chart";
 const Plan = () => {
   const LS = localStorage.getItem("user");
   const user = JSON.parse(LS ?? "");
