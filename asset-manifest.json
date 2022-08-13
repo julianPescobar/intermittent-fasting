@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/intermittent-fasting/static/css/main.0fcdb75f.css",
-    "main.js": "/intermittent-fasting/static/js/main.33bcd81a.js",
+    "main.js": "/intermittent-fasting/static/js/main.0377aa27.js",
     "static/js/787.05067b2d.chunk.js": "/intermittent-fasting/static/js/787.05067b2d.chunk.js",
     "index.html": "/intermittent-fasting/index.html",
     "main.0fcdb75f.css.map": "/intermittent-fasting/static/css/main.0fcdb75f.css.map",
-    "main.33bcd81a.js.map": "/intermittent-fasting/static/js/main.33bcd81a.js.map",
+    "main.0377aa27.js.map": "/intermittent-fasting/static/js/main.0377aa27.js.map",
     "787.05067b2d.chunk.js.map": "/intermittent-fasting/static/js/787.05067b2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fcdb75f.css",
-    "static/js/main.33bcd81a.js"
+    "static/js/main.0377aa27.js"
   ]
 }
