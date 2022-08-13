@@ -1,0 +1,27 @@
+.animatedContainer{
+  overflow: hidden;
+    animation-name: appear;
+  animation-duration: 0.3s;
+}
+@keyframes appear {
+    from {
+      transform: scale(0.90);
+      opacity: 0.10;
+    }
+    25% {
+      transform: scale(0.93);
+      opacity: 0.25;
+    }
+    50% {
+      transform: scale(0.96);
+      opacity: 0.5;
+    }
+    75% {
+      transform: scale(0.99);
+      opacity: 0.75;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }

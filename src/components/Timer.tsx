@@ -1,4 +1,5 @@
 import "./Timer.css";
+import './animations.css'
 import "./StartPlan.css";
 import { useEffect, useState } from "react";
 const Timer = (props: any) => {
@@ -64,12 +65,12 @@ const Timer = (props: any) => {
   });
 
   return (
-    <div className={currentMode}>
+    <div className={currentMode + ' animatedContainer'}>
       <code>
         <b>You have </b>
       </code>
       <div className={'timer-card '}>
-        <div className={'timer-container '}>
+        <div className={'timer-container  '}>
           <h1 >{currentTime}</h1>
         </div>
       </div>

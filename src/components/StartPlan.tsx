@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./StartPlan.css";
 import "./Textbox.css";
+import './animations.css'
 const options = [
   "Improve your heart health",
   "Fight obesity",
@@ -82,7 +83,7 @@ class StartPlan extends React.Component<{},{clicked: boolean, nombre: string, pe
   
 
  second = 
-  <div className="container">
+  <div className="container animatedContainer">
     <div className="card">
       <h1>Tell me a little bit about yourself, we won't share your info</h1>
       <code className="label">Your name (or nickname)</code>
